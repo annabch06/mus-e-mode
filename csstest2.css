@@ -303,6 +303,9 @@ footer {
     .portfolio-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 images par rangée sur mobile */
     }
+    .event-image img {
+        width: 100%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -458,5 +461,22 @@ p, li, a {
     /* Afficher le bouton burger */
     .menu-icon {
         display: block;
+    }
+}
+/* Responsive layout pour les détails de l'événement */
+@media (max-width: 768px) {
+    .event-container {
+        flex-direction: column; /* Aligne l'image et la description en colonne */
+        text-align: center; /* Centre le contenu */
+    }
+
+    .event-image img {
+        width: 100%; /* L'image prend toute la largeur */
+        height: auto; /* Maintient les proportions de l'image */
+    }
+
+    .event-description {
+        margin-top: 20px; /* Ajoute de l'espace entre l'image et la description */
+        padding: 10px; /* Réduit le padding pour un rendu mobile */
     }
 }
