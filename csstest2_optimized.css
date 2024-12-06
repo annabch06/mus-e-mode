@@ -380,7 +380,7 @@ letter-spacing: -0.4px;
 /* Section Hero avec Image de Fond */
 .hero-section {
     height: 70vh; /* Laisser la taille initiale */
-    background: url('images/headermuseemode.png') no-repeat center center/cover;
+    background: url('images/tinified/headermuseemode.png') no-repeat center center/cover;
     padding-top: 20px;
 }
 
