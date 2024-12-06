@@ -401,7 +401,12 @@ letter-spacing: -0.4px;
         height: 60vh; /* Optionnel : ajuster la hauteur pour mieux s'adapter */
     }
 }
-
+@media (max-width: 768px) {
+    .hero-section img {
+        width: 100%; /* Image pleine largeur */
+        height: auto; /* Conserve les proportions */
+    }
+}
 /* Appliquer Playfair Display à l'ensemble du site */
 body {
     font-family: 'Playfair Display', serif;
