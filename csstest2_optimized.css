@@ -384,6 +384,14 @@ letter-spacing: -0.4px;
     padding-top: 20px;
 }
 
+.hero-section {
+    width: 100%; /* Le conteneur s'adapte à la largeur de l'écran */
+    overflow: hidden; /* Empêche les débordements de contenu */
+    padding: 0; /* Supprime les marges intérieures */
+    margin: 0 auto; /* Centre le conteneur */
+    text-align: center; /* Centre tout le contenu */
+}
+
 /* Responsive: Quand l'écran est plus petit, ajuster la taille de l'image */
 @media (max-width: 768px) {
     
